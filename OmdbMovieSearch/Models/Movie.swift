@@ -23,7 +23,7 @@ struct Movie: Decodable, Equatable {
     }
 }
 
-struct MovieResponse {
+struct MovieResponse: Decodable {
     let search: [Movie]
     let totalResults: String?
     let response: String

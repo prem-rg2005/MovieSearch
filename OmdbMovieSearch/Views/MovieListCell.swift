@@ -22,7 +22,7 @@ struct MovieListCell: View {
                 } else if phase.error != nil {
                     Text("No image available")
                 } else {
-                    Image(systemName: "photo")
+                    Image.sysImage.placeholderImg
                 }
             }
             .frame(width: 100)

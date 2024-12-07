@@ -104,6 +104,8 @@
 				3BA3EF862D03CF7600FEDDF2 /* ContentView.swift */,
 				3BA3EFB72D04179300FEDDF2 /* ApiService */,
 				3BA3EFAE2D03D24000FEDDF2 /* Models */,
+				3BA3EFBD2D041F1F00FEDDF2 /* Views */,
+				3BA3EFBE2D041F3000FEDDF2 /* View Models */,
 				3BA3EFBA2D04181900FEDDF2 /* Helpers */,
 				3BA3EF882D03CF7800FEDDF2 /* Assets.xcassets */,
 				3BA3EF8A2D03CF7800FEDDF2 /* Preview Content */,
@@ -158,6 +160,20 @@
 				3BA3EFBB2D04183800FEDDF2 /* Color+Extension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3BA3EFBD2D041F1F00FEDDF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BA3EFBE2D041F3000FEDDF2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

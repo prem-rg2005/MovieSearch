@@ -60,6 +60,7 @@
 		3BA3EFC52D04284C00FEDDF2 /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
 		3BA3EFC72D04306200FEDDF2 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		3BA3EFC92D04319C00FEDDF2 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		3BA3EFCB2D04483C00FEDDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		3BA3EF832D03CF7600FEDDF2 /* OmdbMovieSearch */ = {
 			isa = PBXGroup;
 			children = (
+				3BA3EFCB2D04483C00FEDDF2 /* Info.plist */,
 				3BA3EF842D03CF7600FEDDF2 /* OmdbMovieSearchApp.swift */,
 				3BA3EF862D03CF7600FEDDF2 /* ContentView.swift */,
 				3BA3EFB72D04179300FEDDF2 /* ApiService */,
@@ -497,10 +499,9 @@
 				DEVELOPMENT_TEAM = ZP93M6BWTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Movie Search";
+				INFOPLIST_FILE = OmdbMovieSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,10 +527,9 @@
 				DEVELOPMENT_TEAM = ZP93M6BWTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Movie Search";
+				INFOPLIST_FILE = OmdbMovieSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -30,7 +30,8 @@ struct MovieListCell: View {
             VStackLayout(alignment: .leading) {
                 HStack {
                     Text(movie.title)
-                        .font(.headline)
+                        .font(.title2)
+                        .fontWeight(.bold)
                         .foregroundColor(Color.blue)
                     Spacer()
                 }

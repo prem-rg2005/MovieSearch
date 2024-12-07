@@ -28,9 +28,12 @@ struct MovieListCell: View {
             .cornerRadius(15)
             
             VStackLayout(alignment: .leading) {
-                Text(movie.title)
-                    .font(.headline)
-                    .foregroundColor(Color.blue)
+                HStack {
+                    Text(movie.title)
+                        .font(.headline)
+                        .foregroundColor(Color.blue)
+                    Spacer()
+                }
                 Text("Year: \(movie.year)")
                     .font(.subheadline)
                     .foregroundColor(Color.themeColor.secondaryText)

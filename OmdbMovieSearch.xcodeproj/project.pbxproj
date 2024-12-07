@@ -14,6 +14,7 @@
 		3BA3EF962D03CF7800FEDDF2 /* OmdbMovieSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EF952D03CF7800FEDDF2 /* OmdbMovieSearchTests.swift */; };
 		3BA3EFA02D03CF7800FEDDF2 /* OmdbMovieSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EF9F2D03CF7800FEDDF2 /* OmdbMovieSearchUITests.swift */; };
 		3BA3EFA22D03CF7800FEDDF2 /* OmdbMovieSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EFA12D03CF7800FEDDF2 /* OmdbMovieSearchUITestsLaunchTests.swift */; };
+		3BA3EFB02D03D25800FEDDF2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EFAF2D03D25800FEDDF2 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3BA3EF9B2D03CF7800FEDDF2 /* OmdbMovieSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmdbMovieSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA3EF9F2D03CF7800FEDDF2 /* OmdbMovieSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmdbMovieSearchUITests.swift; sourceTree = "<group>"; };
 		3BA3EFA12D03CF7800FEDDF2 /* OmdbMovieSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmdbMovieSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BA3EFAF2D03D25800FEDDF2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		3BA3EF832D03CF7600FEDDF2 /* OmdbMovieSearch */ = {
 			isa = PBXGroup;
 			children = (
+				3BA3EFAE2D03D24000FEDDF2 /* Models */,
 				3BA3EF842D03CF7600FEDDF2 /* OmdbMovieSearchApp.swift */,
 				3BA3EF862D03CF7600FEDDF2 /* ContentView.swift */,
 				3BA3EF882D03CF7800FEDDF2 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				3BA3EFA12D03CF7800FEDDF2 /* OmdbMovieSearchUITestsLaunchTests.swift */,
 			);
 			path = OmdbMovieSearchUITests;
+			sourceTree = "<group>";
+		};
+		3BA3EFAE2D03D24000FEDDF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3EFAF2D03D25800FEDDF2 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				3BA3EF872D03CF7600FEDDF2 /* ContentView.swift in Sources */,
 				3BA3EF852D03CF7600FEDDF2 /* OmdbMovieSearchApp.swift in Sources */,
+				3BA3EFB02D03D25800FEDDF2 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

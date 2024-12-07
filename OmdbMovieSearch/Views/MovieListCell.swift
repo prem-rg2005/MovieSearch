@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MovieListCell: View {
     
-    @State var movie: Movie = .init(title: "Harry Potter and the Deathly Hallows: Part 2", year: "2011", id: "tt1201607", type: "movie", poster: "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX300.jpg")
+    @State var movie: Movie
     
     var body: some View {
         HStack {
@@ -48,6 +48,6 @@ struct MovieListCell: View {
     }
 }
 
-#Preview {
-    MovieListCell()
-}
+//#Preview {
+//    MovieListCell()
+//}

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Movie: Decodable, Equatable {
+struct Movie: Decodable, Identifiable {
     let title: String
     let year: String
     let id: String
@@ -24,7 +24,7 @@ struct Movie: Decodable, Equatable {
 }
 
 struct MovieResponse: Decodable {
-    let search: [Movie]
+    let search: [Movie]?
     let totalResults: String?
     let response: String
     let error: String?

@@ -18,7 +18,6 @@ struct MovieListCell: View {
                     image
                         .resizable()
                         .scaledToFit()
-                        .aspectRatio(contentMode: .fit)
                 } else if phase.error != nil {
                     Text("No image available")
                 } else {

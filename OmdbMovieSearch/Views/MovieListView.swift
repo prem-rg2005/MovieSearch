@@ -30,6 +30,7 @@ struct MovieListView: View {
                     List {
                         ForEach(viewModel.movies) { movie in
                             MovieListCell(movie: movie)
+                                .listRowSeparator(.hidden)
                         }
                         
                         if viewModel.shouldLoadMoreMovies() {
@@ -48,6 +49,10 @@ struct MovieListView: View {
                 }
             }
             .navigationTitle("Movie List")
+        }
+        .onAppear {
+            // Default list to be shown when screen loads for the first time
+            viewModel.searchMovies(query: "Rocky")
         }
     }
     

@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Color {
+    static let themeColor = AppColor()
+}
+
+struct AppColor {
+    let bgColor = Color("Background")
+    let primaryText = Color("PrimaryText")
+    let secondaryText = Color("SecondaryText")
+}

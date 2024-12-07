@@ -16,4 +16,5 @@ struct AppColor {
     let bgColor = Color("Background")
     let primaryText = Color("PrimaryText")
     let secondaryText = Color("SecondaryText")
+    let cellBg = Color("ListCell")
 }

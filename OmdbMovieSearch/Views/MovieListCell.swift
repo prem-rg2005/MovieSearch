@@ -36,12 +36,12 @@ struct MovieListCell: View {
                 }
                 Text("Year: \(movie.year)")
                     .font(.subheadline)
-                    .foregroundColor(Color.themeColor.secondaryText)
+                    .foregroundColor(Color.themeColor.primaryText)
             }
             .padding(.leading, 8)
         }
         .padding()
-        .background(Color.themeColor.secondaryText)
+        .background(Color.themeColor.cellBg)
         .cornerRadius(5)
         .padding(.horizontal)
     }
